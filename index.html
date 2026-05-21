@@ -1474,8 +1474,6 @@
     // ============== MATCH DATA ==============
     
    const upcomingMatches = [
-      { id: 65, teams: "MI vs KKR", date: "Wed, May 20", venue: "Kolkata", time: "7:30 PM", tossCode: "wb583", winnerCode: "qy902", predictedToss: "Kolkata Knight Riders", predictedWinner: "Kolkata Knight Riders" },
-      { id: 66, teams: "CSK vs GT", date: "Thu, May 21", venue: "Ahmedabad", time: "7:30 PM", tossCode: "na419", winnerCode: "lz385", predictedToss: "Chennai Super Kings", predictedWinner: "Chennai Super Kings" },
       { id: 67, teams: "RCB vs SRH", date: "Fri, May 22", venue: "Hyderabad", time: "7:30 PM", tossCode: "vd726", winnerCode: "mw840", predictedToss: "Royal Challengers Bengaluru", predictedWinner: "Sunrisers Hyderabad" },
       { id: 68, teams: "PBKS vs LSG", date: "Sat, May 23", venue: "Lucknow", time: "7:30 PM", tossCode: "xr109", winnerCode: "kf552", predictedToss: "Lucknow Super Giants", predictedWinner: "Lucknow Super Giants" },
       { id: 69, teams: "RR vs MI", date: "Sun, May 24", venue: "Mumbai", time: "3:30 PM", tossCode: "zg631", winnerCode: "bt448", predictedToss: "Mumbai Indians", predictedWinner: "Mumbai Indians" },
@@ -1483,7 +1481,9 @@
     ];
 
     const pastMatchesData = [
-      { id: 63, teams: "LSG vs RR", date: "MAY 19", venue: "Jaipur", time: "7:30 PM", tossWinner: "RR", matchWinner: "Rajasthan Royals", predictionPassed: true },
+      { id: 66, teams: "CSK vs GT", date: "MAY 21", venue: "Ahmedabad", time: "7:30 PM", tossWinner: "Chennai Super Kings", matchWinner: "Gujarat Titans", predictionPassed: true },
+      { id: 65, teams: "MI vs KKR", date: "MAY 20", venue: "Kolkata", time: "7:30 PM", tossWinner: "Kolkata Knight Riders", matchWinner: "Kolkata Knight Riders", predictionPassed: true },
+      { id: 64, teams: "LSG vs RR", date: "MAY 19", venue: "Jaipur", time: "7:30 PM", tossWinner: "RR", matchWinner: "Rajasthan Royals", predictionPassed: true },
       { id: 63, teams: "SRH vs CSK", date: "MAY 18", venue: "Chennai", time: "7:30 PM", tossWinner: "CSK", matchWinner: "SRH", predictionPassed: false , reason: "Toss Loss (Predicted SRH)"},
       { id: 62, teams: "DC vs RR", venue: "Delhi", date: "MAY 17", tossWinner: "Delhi Capitals", matchWinner: "Delhi Capitals", predictionPassed: true },
       { id: 61, teams: "PBKS vs RCB", venue: "Dharamshala", date: "MAY 17", tossWinner: "Royal Challengers Bengaluru", matchWinner: "Royal Challengers Bengaluru", predictionPassed: true },
@@ -1547,6 +1547,7 @@
       { id: 2, teams: "MI vs KKR", venue: "Mumbai", date: "MAR 29", tossWinner: "Mumbai Indians", matchWinner: "Mumbai Indians", predictionPassed: false, reason: "Toss Loss (Predicted KKR)" },
       { id: 1, teams: "RCB vs SRH", venue: "Bengaluru", date: "MAR 28", tossWinner: "Royal Challengers Bengaluru", matchWinner: "Royal Challengers Bengaluru", predictionPassed: true }
     ];
+
     // ============== STATISTICS & ANALYTICS ==============
     
     const calculateStats = () => {
