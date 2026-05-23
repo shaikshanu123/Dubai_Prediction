@@ -1473,14 +1473,14 @@
 
     // ============== MATCH DATA ==============
     
-   const upcomingMatches = [
-      { id: 67, teams: "RCB vs SRH", date: "Fri, May 22", venue: "Hyderabad", time: "7:30 PM", tossCode: "vd726", winnerCode: "mw840", predictedToss: "Royal Challengers Bengaluru", predictedWinner: "Sunrisers Hyderabad" },
-      { id: 68, teams: "PBKS vs LSG", date: "Sat, May 23", venue: "Lucknow", time: "7:30 PM", tossCode: "xr109", winnerCode: "kf552", predictedToss: "Lucknow Super Giants", predictedWinner: "Lucknow Super Giants" },
+    const upcomingMatches = [
       { id: 69, teams: "RR vs MI", date: "Sun, May 24", venue: "Mumbai", time: "3:30 PM", tossCode: "zg631", winnerCode: "bt448", predictedToss: "Mumbai Indians", predictedWinner: "Mumbai Indians" },
       { id: 70, teams: "DC vs KKR", date: "Sun, May 24", venue: "Kolkata", time: "7:30 PM", tossCode: "lp894", winnerCode: "vs367", predictedToss: "Kolkata Knight Riders", predictedWinner: "Kolkata Knight Riders" }
     ];
 
     const pastMatchesData = [
+      { id: 68, teams: "PBKS vs LSG", date: "MAY 23", venue: "Lucknow", time: "7:30 PM", tossWinner: "PBKS", matchWinner: "PBKS", predictionPassed: true },
+      { id: 67, teams: "RCB vs SRH", date: "MAY 22", venue: "Hyderabad", time: "7:30 PM", tossWinner: "RCB", matchWinner: "SRH", predictionPassed: false , reason: "Toss Loss (Predicted SRH)"},
       { id: 66, teams: "CSK vs GT", date: "MAY 21", venue: "Ahmedabad", time: "7:30 PM", tossWinner: "Chennai Super Kings", matchWinner: "Gujarat Titans", predictionPassed: true },
       { id: 65, teams: "MI vs KKR", date: "MAY 20", venue: "Kolkata", time: "7:30 PM", tossWinner: "Kolkata Knight Riders", matchWinner: "Kolkata Knight Riders", predictionPassed: true },
       { id: 64, teams: "LSG vs RR", date: "MAY 19", venue: "Jaipur", time: "7:30 PM", tossWinner: "RR", matchWinner: "Rajasthan Royals", predictionPassed: true },
@@ -1547,6 +1547,7 @@
       { id: 2, teams: "MI vs KKR", venue: "Mumbai", date: "MAR 29", tossWinner: "Mumbai Indians", matchWinner: "Mumbai Indians", predictionPassed: false, reason: "Toss Loss (Predicted KKR)" },
       { id: 1, teams: "RCB vs SRH", venue: "Bengaluru", date: "MAR 28", tossWinner: "Royal Challengers Bengaluru", matchWinner: "Royal Challengers Bengaluru", predictionPassed: true }
     ];
+
 
     // ============== STATISTICS & ANALYTICS ==============
     
